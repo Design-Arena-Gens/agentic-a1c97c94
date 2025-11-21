@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;600;700&family=Cairo:wght@300;400;600;700&display=swap");
+
+:root {
+  color-scheme: light;
+  font-family: "Cairo", system-ui, sans-serif;
+  background: radial-gradient(circle at top, #fdf7ed, #f5d49c);
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  color: #321f08;
+}
+
+* {
+  box-sizing: border-box;
+}
